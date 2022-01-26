@@ -32,7 +32,7 @@
           <img src="images/logo.png" alt="logo" class="logo" />
         </a>
         <ul class="menu-items">
-          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About Us</a></li>
           <li><a href="#services">Services</a></li>
           <li class="dropdown">
@@ -83,10 +83,10 @@
             </div>
             <br /><br />
             <div class="input-control">
-              <label for="message">Your email:</label>
+              <label for="comment">Your message:</label>
               <textarea
-                name="message"
-                id="message"
+                name="comment"
+                id="comment"
                 cols="30"
                 rows="10"
                 placeholder="Write here..."
@@ -95,7 +95,10 @@
               <div class="error"></div>
             </div>
             <div class="flex-end">
-              <button class="cta-btn contact-btn slide-in from-down">
+              <button
+                class="cta-btn contact-btn slide-in from-down"
+                type="submit"
+              >
                 submit
               </button>
             </div>
