@@ -217,7 +217,7 @@ a.btn {
   margin-top: 2.5rem;
   border: 1px solid var(--blue-color);
   cursor: pointer;
-  box-shadow: 0 0.25rem 0.5rem 0rem var(--blue-color);
+  box-shadow: 0 0.25rem 0.25rem 0rem var(--blue-color);
 }
 a.btn:hover {
   background: var(--blue-color);
@@ -565,14 +565,14 @@ a.btn.secondary:hover {
 }
 .testimonial-title h3 {
   text-align: left;
-  padding-top: 120px;
-  width: 445px;
+  padding-top: 7.5rem;
+  width: 27.8125rem;
   position: relative;
 }
 .testimonial-title h3:before {
   content: "\201C";
   font-weight: bold;
-  font-size: 400px;
+  font-size: 25rem;
   color: #ffc278;
   opacity: 0.2;
   position: absolute;
@@ -580,22 +580,22 @@ a.btn.secondary:hover {
   left: -20%;
 }
 .testimonial-cards {
-  margin-left: 80px;
+  margin-left: 5rem;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(8, 3vw);
-  grid-gap: 15px;
+  grid-gap: 0.9375rem;
 }
 .testimonial-cards .testimonial-card-content {
   background: var(--white-color);
-  padding: 10px 25px;
-  border-radius: 10px;
+  padding: 0.625rem 1.5625rem;
+  border-radius: 0.625rem;
   box-shadow: 0 0.5rem 0.625rem 0 rgba(255, 255, 255, 0.12);
 }
 .testimonial-cards .testimonial-card-content > img {
-  margin-top: 15px;
-  margin-bottom: 18px;
-  width: 102px;
+  margin-top: 0.9375rem;
+  margin-bottom: 1.125rem;
+  width: 6.375rem;
 }
 .testimonial-cards .card-1 {
   grid-column: 1 / span 2;
@@ -610,11 +610,11 @@ a.btn.secondary:hover {
   grid-row: 1 / span 4;
 }
 .testimonial-card-content p {
-  padding-left: 20px;
+  padding-left: 1.25rem;
 }
 .card-3 blockquote {
-  margin-top: 28px;
-  font-size: 18px;
+  margin-top: 1.75rem;
+  font-size: 1.125rem;
 }
 blockquote {
   border: none;
@@ -622,18 +622,18 @@ blockquote {
 }
 
 blockquote p {
-  font-size: 18px;
+  font-size: 1.125rem;
   position: relative;
   text-align: left;
-  margin-bottom: 24px;
-  padding-left: 20px;
+  margin-bottom: 1.5rem;
+  padding-left: 1.25rem;
 }
 
 blockquote p:before {
   content: "\201C";
   font-weight: bold;
-  font-size: 80px;
-  margin-left: -15px;
+  font-size: 5rem;
+  margin-left: -0.9375rem;
   color: #ffc278;
   opacity: 0.7;
   position: absolute;
@@ -644,31 +644,31 @@ blockquote p:before {
   font-weight: bold;
 }
 #testi-role {
-  font-size: 14px;
+  font-size: 0.875rem;
   color: var(--grey2-color);
 }
 .counts {
-  margin-top: 60px;
+  margin-top: 3.75rem;
   color: var(--white-color);
 }
 .counts .counts-title {
   text-align: center;
 }
 .counts .counts-title p {
-  font-size: 20px;
-  margin-top: 8px;
-  margin-bottom: 30px;
+  font-size: 1.25rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1.875rem;
 }
 .counters {
-  margin-top: 48px;
+  margin-top: 3rem;
   display: grid;
-  grid-gap: 30px;
+  grid-gap: 1.875rem;
   grid-template-columns: repeat(4, 1fr);
   text-align: center;
 }
 .counts-content .counter {
-  padding-bottom: 10px;
-  font-size: 48px;
+  padding-bottom: 0.625rem;
+  font-size: 3rem;
   font-weight: bold;
 }
 .counts-content {
@@ -677,49 +677,45 @@ blockquote p:before {
 .counts-content:nth-child(4) {
   border-right: none;
 }
-@media (max-width: 700px) {
-  .counters {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
+
 /* Testimonial Ends */
 /* Grow Biz Begins */
 .grow-biz {
-  margin-bottom: 160px;
+  margin-bottom: 10rem;
   text-align: center;
 }
 .grow-biz .grow-biz-content {
-  width: 730px;
+  width: 45.625rem;
   margin: 0 auto;
 }
 .grow-biz .grow-biz-content h3 {
-  padding-bottom: 40px;
-  line-height: 65px;
+  padding-bottom: 2.5rem;
+  line-height: 4.0625rem;
 }
 /* Grow Biz Ends */
 /* Footer Begins */
 .footer {
-  margin-top: 160px;
-  padding-bottom: 160px;
+  margin-top: 10rem;
+  padding-bottom: 10rem;
 }
 .footer .container {
   display: flex;
   justify-content: space-between;
 }
 .footer .container .col-1 {
-  margin-right: 125px;
+  margin-right: 7.8125rem;
 }
 .footer .container .col-1 img {
-  padding-bottom: 40px;
+  padding-bottom: 2.5rem;
   cursor: pointer;
 }
 .footer .container .col-1 p {
-  padding-top: 8px;
+  padding-top: 0.5rem;
   color: var(--grey2-color);
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 .footer .container .col-1 .footer-icons {
-  margin-top: 40px;
+  margin-top: 2.5rem;
 }
 .footer .container .col-1 .footer-icons ul {
   display: flex;
@@ -727,8 +723,8 @@ blockquote p:before {
 }
 .footer .container .col-1 .footer-icons .fab {
   color: var(--grey-color);
-  padding: 12px;
-  font-size: 28px;
+  padding: 0.75rem;
+  font-size: 1.75rem;
   transition: transform 0.2s ease;
 }
 .footer .container .col-1 .footer-icons .fab:hover {
@@ -737,13 +733,13 @@ blockquote p:before {
   transition: 0.5s;
 }
 .footer .container .col-2 h4 {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 500;
-  margin-bottom: 8px;
+  margin-bottom: 0.5rem;
 }
 .footer .container .col-2 .items ul li {
-  font-size: 16px;
-  padding-top: 12px;
+  font-size: 1rem;
+  padding-top: 0.75rem;
 }
 .footer .container .col-2 .items ul li a {
   color: var(--grey2-color);
@@ -755,23 +751,23 @@ blockquote p:before {
   display: flex;
   background: #e0e0e0;
   align-items: center;
-  border-radius: 5px;
-  padding: 0 8px;
+  border-radius: 0.3125rem;
+  padding: 0 0.5rem;
   cursor: pointer;
 }
 .input-container input[type="email"] {
-  padding: 8px;
+  padding: 0.5rem;
   border: none;
   outline: none;
   background: #e0e0e0;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
-  text-indent: 5px;
+  border-top-left-radius: 0.3125rem;
+  border-bottom-left-radius: 0.3125rem;
+  text-indent: 0.3125rem;
 }
 #personnels {
   text-align: center;
   font-size: 14px;
-  margin-top: 40px;
+  margin-top: 2.5rem;
 }
 #personnels a {
   color: var(--blue-color);
@@ -932,60 +928,59 @@ blockquote p:before {
 /* About header Ends */
 /* Our Services Begins */
 .our-services {
-  margin-top: 160px;
+  margin-top: 10rem;
 }
 .our-services-content {
-  margin-top: 40px;
+  margin-top: 2.5rem;
 }
 .our-services-content {
   display: flex;
-  /* align-items: center; */
+
   justify-content: space-between;
 }
 .our-services-content-text {
-  /* margin-left: 110px; */
-  width: 489px;
-  margin-top: 10px;
+  width: 30.5625rem;
+  margin-top: 0.625rem;
 }
 .our-services-content-text h5 {
   font-weight: 500;
-  margin-bottom: 26px;
+  margin-bottom: 1.625rem;
 }
 .our-services-content-text p {
   /* width: 459px; */
-  line-height: 35px;
+  line-height: 2.1875rem;
 }
 #under-link {
-  margin-top: 44px;
+  margin-top: 2.75rem;
   color: #999999;
 }
 #under-link a {
   text-decoration: underline;
-  margin-right: 16px;
+  margin-right: 1rem;
   color: var(--blue-color);
 }
 #under-link a:hover {
   color: var(--cta-hover);
 }
 #under-link .fa-chevron-right {
-  margin-left: 56px;
+  margin-left: 3.5rem;
   cursor: pointer;
   color: var(--black-colo);
 }
 /* about ends */
 /* About-clients Begins */
 .clients {
-  margin-top: 160px;
+  margin-top: 10rem;
 }
 .clients .about-clients-text p {
   text-align: center;
-  width: 768px;
+  width: 48rem;
   margin: 0 auto;
-  line-height: 32px;
-  margin-bottom: 50px;
+  line-height: 2rem;
+  margin-bottom: 3.125rem;
 }
 .newsletter-content {
-  padding: 32px;
+  padding: 2rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -993,36 +988,36 @@ blockquote p:before {
   border-radius: 15px;
 }
 .newsletter {
-  margin: 160px auto;
+  margin: 10rem auto;
 }
 .newsletter-text p {
-  margin-top: 17px;
-  line-height: 32px;
+  margin-top: 1.0625rem;
+  line-height: 2rem;
 }
 .subscription {
-  padding: 8px;
+  padding: 0.5rem;
   background: var(--white-color);
 }
 .subscription .cta-btn {
-  padding: 12px;
-  width: 91px;
-  font-size: 14px;
+  padding: 0.75rem;
+  width: 5.6875rem;
+  font-size: 0.875rem;
   font-weight: normal;
   box-shadow: none;
 }
 .subscription input[type="email"] {
-  padding: 8px;
+  padding: 0.5rem;
   border: none;
   outline: none;
   background: var(--white-color);
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
-  text-indent: 5px;
+  border-top-left-radius: 0.3125rem;
+  border-bottom-left-radius: 0.3125rem;
+  text-indent: 0.3125rem;
 }
 /* About ends */
 /* contact begins */
 .form-element {
-  margin-top: 150px;
+  margin-top: 9.375rem;
 }
 .form-element h4 {
   animation: fadeToRight 800ms forwards cubic-bezier(0.22, 0.32, 0, 1.54);
@@ -1032,7 +1027,7 @@ blockquote p:before {
 .form-container {
   display: flex;
   justify-content: space-between;
-  margin-top: 35px;
+  margin-top: 2.1875rem;
 }
 .overlay {
   display: inline-block;
@@ -1075,7 +1070,7 @@ blockquote p:before {
   z-index: -1;
   display: block;
   height: 100%;
-  width: 692px;
+  width: 43.25rem;
   background: linear-gradient(
     to bottom,
     rgba(255, 255, 255, 0),
@@ -1096,16 +1091,16 @@ blockquote p:before {
   color: white;
 }
 hr {
-  width: 692px;
+  width: 43.25rem;
   padding-left: 0;
 }
 .ball-1 {
-  width: 35px;
-  height: 35px;
+  width: 2.1875rem;
+  height: 2.1875rem;
 }
 .address p {
-  margin-top: 5px;
-  line-height: 32px;
+  margin-top: 0.3125rem;
+  line-height: 2rem;
 }
 .input-control.success input {
   border-color: #09c372;
@@ -1115,16 +1110,16 @@ hr {
 }
 .input-control.error {
   color: #ff3860;
-  font-size: 10px;
-  padding-top: 13px;
+  font-size: 0.625rem;
+  padding-top: 0.8125rem;
 }
 .address-email {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  height: 200px;
+  height: 12.5rem;
 }
 .address-email span {
-  margin-top: 20px;
+  margin-top: 1.25rem;
 }
 .address-email span:nth-child(1) {
   border-left: none;
@@ -1135,13 +1130,13 @@ hr {
   border-right: none;
 }
 .address-email .email-text {
-  padding-top: 55px;
-  padding-left: 40px;
+  padding-top: 3.4375rem;
+  padding-left: 2.5rem;
   color: var(--white-color);
-  border-top: 1px solid var(--white-color);
-  border-left: 1px solid var(--white-color);
-  border-right: 1px solid var(--white-color);
-  height: 146px;
+  border-top: 0.0625rem solid var(--white-color);
+  border-left: 0.0625rem solid var(--white-color);
+  border-right: 0.0625rem solid var(--white-color);
+  height: 9.125rem;
 }
 .address-email .email-text a {
   color: var(--white-color);
@@ -1151,22 +1146,22 @@ hr {
   flex-direction: column;
 }
 label {
-  margin-bottom: 15px;
-  font-size: 16px;
+  margin-bottom: 0.9375rem;
+  font-size: 1rem;
   font-weight: 500;
 }
 textarea {
   resize: none;
 }
 .fieldtext {
-  padding: 12px;
-  width: 451px;
+  padding: 0.75rem;
+  width: 28.1875rem;
   outline: none;
   caret-color: var(--blue-color);
 }
 .contact-btn {
-  width: 195px;
-  margin-top: 40px;
+  width: 12.1875rem;
+  margin-top: 2.5rem;
   float: right;
 }
 /* Contact Style Ends */
