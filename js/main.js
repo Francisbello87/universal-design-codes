@@ -66,11 +66,6 @@ sliders.forEach((slider) => {
   appearOnScroll.observe(slider);
 });
 
-const loader = document.getElementById("preloader");
-window.addEventListener("load", function () {
-  loader.style.display = "none";
-});
-
 const navBar = document.querySelector(".desktop-nav");
 const navHeight = navBar.getBoundingClientRect().height;
 window.addEventListener("scroll", () => {
