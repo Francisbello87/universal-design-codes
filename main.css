@@ -144,9 +144,7 @@ button:active {
   display: block;
 }
 /* Header Nav */
-.mobile-nav {
-  display: none;
-}
+
 .desktop-nav {
   display: flex;
   justify-content: space-between;
@@ -196,14 +194,12 @@ button:active {
   font-weight: bold;
   position: relative;
   background-color: none;
+  transition: transform 0.2 ease;
 }
-.desktop-nav .menu-items li a.active::after {
-  content: "";
-  position: absolute;
-  height: 0.1875rem;
-  width: 100%;
-  left: 0;
-  bottom: -0.875rem;
+.desktop-nav .menu-items li a:hover {
+  text-decoration: underline;
+  color: var(--blue-color);
+  transition: 0.2s;
 }
 .fa-caret-down {
   margin: 0 0.3125rem;
