@@ -196,6 +196,13 @@ button:active {
   background-color: none;
   transition: transform 0.2 ease;
 }
+.desktop-nav li a:is(:link, :active, :visited) {
+  color: var(--black-colo);
+  text-decoration: none;
+}
+.desktop-nav li a.active {
+  color: var(--blue-color);
+}
 .desktop-nav .menu-items li a:hover {
   text-decoration: underline;
   color: var(--blue-color);

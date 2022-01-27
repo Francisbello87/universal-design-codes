@@ -1,3 +1,14 @@
+// // Active Nav Starts
+const activePage = window.location.pathname;
+// console.log(activePage);
+const navLinks = document.querySelectorAll("nav a").forEach((link) => {
+  // console.log(link.href);
+  if (link.href.includes(`${activePage}`)) {
+    link.classList.add("active");
+  }
+});
+// active nav ends
+
 // Conter Begins
 
 const counters = document.querySelectorAll(".counter");
@@ -23,20 +34,18 @@ counters.forEach((counter) => {
 // Intersection Observer Begins
 const options = { threshold: 0.4 };
 const addActiveClass = (entries, observer) => {
-  entries.forEach((entry) => {
-    if (entry.isIntersecting) {
-      let currentActive = document.querySelector(".desktop-nav a.active");
-      if (currentActive) {
-        currentActive.classList.remove("active");
-      }
-
-      let newActive = document.querySelector(
-        `.desktop-nav a[href="#${entry.target.getAttribute("id")}"]`
-      );
-
-      newActive.classList.add("active");
-    }
-  });
+  // entries.forEach((entry) => {
+  //   if (entry.isIntersecting) {
+  //     let currentActive = document.querySelector(".desktop-nav a.active");
+  //     if (currentActive) {
+  //       currentActive.classList.remove("active");
+  //     }
+  //     let newActive = document.querySelector(
+  //       `.desktop-nav a[href="#${entry.target.getAttribute("id")}"]`
+  //     );
+  //     newActive.classList.add("active");
+  //   }
+  // });
 };
 
 const observer = new IntersectionObserver(addActiveClass, options);
