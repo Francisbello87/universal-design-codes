@@ -9,7 +9,7 @@ const navLinks = document.querySelectorAll("nav a").forEach((link) => {
 });
 // active nav ends
 
-// Conter Begins
+// Counter Begins
 
 const counters = document.querySelectorAll(".counter");
 const speed = 3000;
@@ -130,7 +130,7 @@ const validateInputs = () => {
   const commentValue = comment.value.trim();
 
   if (fnameValue === "") {
-    setError(fname, "Fullname is required");
+    setError(fname, "Full name is required");
   } else {
     setSuccess(fname);
   }
